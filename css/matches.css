@@ -8,10 +8,12 @@
     width: 80%;
     margin: 0 auto;
 }
-
+caption{
+    margin: 1rem;
+}
 #customers td, #customers th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 1.3rem;
 }
 
 #customers tr:nth-child(even) {
@@ -29,7 +31,12 @@
     background-color: lightslategrey;
     color: white;
     padding-left:30px;
-    /*display:inline-block;*/
+}
+
+.table-title > span{
+    display: block;
+    width: fit-content;
+    margin-left: 8px;
 }
 
 .table-title:before {
@@ -39,6 +46,6 @@
     border-left: solid 6px transparent;
     border-right: solid 6px transparent;
     left: 8px;
-    bottom: 18px;
+    bottom: 30px;
 }
 

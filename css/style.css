@@ -18,10 +18,6 @@
     color: #E6E6E6;
 }
 
-/*.nav-title > a:active{*/
-    /*color: #E6E6E6;*/
-/*}*/
-
 .topnav li:hover > ul {
     display: block;
 }
@@ -74,7 +70,7 @@
     width: 100%;
 }
 
-.posts, .news, .footer-title {
+.posts, .news, .footer-title, .title {
     color: #666;
 }
 
