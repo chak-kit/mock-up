@@ -1,0 +1,44 @@
+.table {
+    margin: 12rem 0;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+.table-title {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    background-color: lightslategrey;
+    color: white;
+    padding-left:30px;
+    /*display:inline-block;*/
+}
+
+.table-title:before {
+    content: "";
+    position: absolute;
+    border-top: solid 10px white;
+    border-left: solid 6px transparent;
+    border-right: solid 6px transparent;
+    left: 8px;
+    bottom: 18px;
+}
+
