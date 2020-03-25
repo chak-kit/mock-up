@@ -104,3 +104,11 @@
     text-align: center;
     padding: 2rem;
 }
+
+.logo{
+    transition: all 1.5s linear;
+}
+
+.logo:hover {
+    transform: translateX(200px);
+}
